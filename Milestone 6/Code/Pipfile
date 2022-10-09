@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+python-telegram-bot = "*"
+googletrans = "==3.1.0a0"
+sklearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
